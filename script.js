@@ -1,7 +1,7 @@
 function dataToTable() {
     var peopleAmount = prompt("How many people you want analyze"); // Ask user for amount of people to analyze
     peopleAmount = parseInt(peopleAmount); // Parse string to number
-    var res = []; // Создаем объект
+    var res = []; // Create object
     for (var i = 0; i < peopleAmount; i++) {
       var name = prompt('What is human name? (If you want to stop press "Cancel")');
       if (name === null) // If user press "Cancel", break our cycle
